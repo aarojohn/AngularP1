@@ -10,4 +10,14 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'AngularP1';
+
+
+  onClickLogo(){
+    alert('Hello World')
+    }
+  onKeyUp(newTitle:string){
+    this.title=newTitle
+    }
+
+
 }
