@@ -7,6 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
+    "kill-port": "npx kill-port 4200",
     "serve:ssr:AngularP1": "node dist/angular-p1/server/server.mjs"
   },
   "private": true,
